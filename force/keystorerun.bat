@@ -1,0 +1,1 @@
+jarsigner -verbose -keystore android.keystore -storepass 941122 -keypass 941122 -sigfile CERT -digestalg SHA1 -sigalg MD5withRSA -signedjar ReforceApk_des.apk app-debug.apk androidauto.keystore

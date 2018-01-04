@@ -107,7 +107,7 @@ public class ParserDex {
 
     }
 
-    private static byte[] readFileArray(File dexFile) {
+    public static byte[] readFileArray(File dexFile) {
         byte[] arrayOfByte = new byte[1024];
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         try {
